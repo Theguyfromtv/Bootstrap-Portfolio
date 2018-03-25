@@ -1,39 +1,112 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Shahar Goldfinger</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">   
-</head>
-<body>
 
-<!-- now this is a story all about how My header is here-->
-    <header>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--logo -->
-        <div id="headerContent">
-            <span>
-                
-                <h1> <a class="span" href="index.html"> Shahar Goldfinger</a></h1> 
-            
-            </span>
-
-    <!--navigation bar -->
-
-            <nav class="menu">
-                <!--list looks messy to avoid tiny annoying spaces -->
-                <ul class="nav">
-                        <li ><a class="navigation" href="index.html">Home</a></li><li ><a class="navigation" href="portfolio.html">Portfolio</a></li><!--this one is of a diff class because it doesn't need a border--><li ><a class="navigationV2" href="contact.html">Contact</a></li>
-                </ul>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <!-- my CSS for cosmetic purposes -->
+    <link rel="stylesheet" href="assets/css/background.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+      <a class="navbar-brand" href="index.html">Shahar Goldfinger</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row"> <div class="col-md-8"> 
+                <div class="card mt-5">
+                    <div class="card-header">
+                        Contact Me
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">     
+                                <form>
+                                    <div class="form-group">  
+                                        <label for="exampleFormControlInput1">Full Name</label>
+                                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Peter Parker">
+                                        <div class="mt-2">
+                                            <label for="exampleFormControlInput1">Email Address</label>
+                                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name@shield.gov">
+                                        </div>
+                                        <div class="mt-2">
+                                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
+                                        </div>
 
-            </nav>
+                                    </div>
+                                </form>
+                            </div>                
+                        </div>
+                        <button type="button mt-2" class="btn btn-danger">Submit</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        Connect with me
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 mt-2">
+                                <a href="https://github.com/Theguyfromtv"> 
+                                <img class="socialPhoto" src="assets/images/githubIcon.jpg" alt="GitHub">
+                                </a>
+                            </div> 
+                            <div class="col-md-4 mt-2">
+                                <a class="socialPhoto" href="https://www.linkedin.com/in/shahargoldfinger/"> 
+                                    <img class="socialPhoto" src="assets/images/linkedinIcon.png" alt="LinkeIn">
+                                </a>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <a class="socialPhoto" href="https://stackoverflow.com/users/9320801/shahar-goldfinger"> 
+                                    <img class="socialPhoto" src="assets/images/stackOverflowIcon.png" alt="GitHub">
+                                </a>
+                            </div>
+                    </div>
+                           
+                    </div>
+                </div>
+            </div>
+       
         </div>
-    </header>
+       
+    <footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <div class="navbar-nav mx-auto text-center"> 
+            <div class="navbar-text"> Stan Lee 2018 </div>
+        </div>
+    </footer>
 
-<!--contact form -->
-
-    <section class="form">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--<section class="form">
         <h2>Contact</h2>
         <form action="https://theguyfromtv.github.io/contact.1.html">
             <div class="row">
@@ -54,7 +127,6 @@
         </form>
     <section class="social">
 
-            <!--Social box (I put it in the form to make it relative in position to the form-->
 
                 <h3>Connect with Me</h3>
                 <a href="https://github.com/Theguyfromtv" target="_blank"> 
@@ -70,14 +142,9 @@
     </section>
 
 
-
-
-
-<!--footer -->
-
     <footer>
        <p class="footer">©Copyright Stan Lee</p> 
-    </footer>
+    </footer>-->
     
 </body>
 </html>

@@ -1,0 +1,15 @@
+/*trying to some color*/
+
+
+body
+{
+    background-image: url('../images/marvelBackground.png');
+    margin: 90px 0;
+
+}
+
+.socialPhoto
+{
+    max-width: 100%;
+    max-height: 100%;
+}
